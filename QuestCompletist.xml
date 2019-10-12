@@ -278,7 +278,7 @@
     </Anchors>
     <Layers>
       <Layer level="BACKGROUND">
-        <Texture name="$parent_qcPortrait" parentKey="qcPortrait" file="Interface\ICONS\TRADE_ARCHAEOLOGY_DRAENEI_TOME">
+        <Texture name="$parent_qcPortrait" parentKey="qcPortrait" file="Interface\Addons\QuestCompletist\Images\Trade_archaeology_draenei_tome">
           <Size x ="64" y ="64"/>
           <Anchors>
             <Anchor point="TOPLEFT" x ="7" y ="-4"/>

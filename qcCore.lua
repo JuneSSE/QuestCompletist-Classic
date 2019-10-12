@@ -1672,7 +1672,8 @@ function qcQuestCompletistUI_OnShow(self)
 end
 
 function qcQuestCompletistUI_OnLoad(self)
-	SetPortraitToTexture(self.qcPortrait, "Interface\\ICONS\\TRADE_ARCHAEOLOGY_DRAENEI_TOME")
+	SetPortraitToTexture(self.qcPortrait, "Interface\\Addons\\QuestCompletist\\Images\\Trade_archaeology_draenei_tome")
+--	SetPortraitToTexture(self.qcPortrait, "Interface\\ICONS\\TRADE_ARCHAEOLOGY_DRAENEI_TOME")
 	self.qcTitleText:SetText(string.format("Quest Completist v%s", QCADDON_VERSION))
 	self.qcCategoryDropdownButton:SetText(GetText("CATEGORIES"))
 	self.qcOptionsButton:SetText(GetText("FILTERS"))
